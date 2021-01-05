@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+font-family: 'JetBrains Mono', monospace;}
+
+body {
+    background: #092327;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+h1 {
+    color: #4E8098;
+    user-select: none;
+
+}
+
+input {
+    display: block;
+    margin: 5% auto;
+    padding: 10px;
+    border: 0;
+    text-align: center;
+    color: white;
+}
+
+#url {
+    background: #0B5351;
+ }
+
+#url:focus {
+    border-bottom: 3px solid #90C2E7;
+}
+
+#submit {
+    background: #00A9A5;
+}
+
+p {
+    color: #90C2E7;
+    text-align: center;
+}
+
+#message {
+    padding: 0.5%;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a:visited {
+    color: inherit;
+}
