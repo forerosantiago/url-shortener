@@ -10,7 +10,7 @@ function getMessage() {
         if(url === null) {
             return
         } else {
-            paragraph.innerHTML = `Short url: <a href="${url}">${url}</a>`;
+            paragraph.innerHTML = `Short url: <a href="https://${url}">${url}</a>`;
         }
     }
 
